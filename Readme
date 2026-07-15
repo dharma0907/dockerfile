@@ -26,3 +26,14 @@ RUN = this is used while creating image, we can run multiple run commands but no
 CMD = this is run while creating a container
 if we give multiple cmd then last cmd instruction woill be override
 
+=====LABLEl=====
+labe;ls are simple metadata, like tags
+
+labels are mainly used for adding tags to images used fwhile filter
+
+docker images --filter="label=author=dharma" --> this command is used to fetch your image with name dharma form out of 100 images
+
+====EXPOSE====
+
+expose is used to give information abpout the port that is been used for image, it won't open port
+
