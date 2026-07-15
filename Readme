@@ -1,0 +1,28 @@
+=========FROM
+Docker start form from instruction
+
+   docker build -t from:v1 .
+ docker images
+ docker tag from:v1  dharma006/from:v1
+ docker images
+ docker login
+ docker login -u dharma006
+docker push dharma006/from:v1 it will push oimahge to our docker hub 
+
+docker run -d image-name --> this will create a container
+
+========RUN INstruction=====
+RUN is used to install some packages , run some commands
+
+one image can have multiple run instructions
+
+=====CMD=========
+after intalling we need to run as container, i.e image to container
+cmd is used while creating container form image
+
+RUN VS CMD
+
+RUN = this is used while creating image, we can run multiple run commands but not cmd commands
+CMD = this is run while creating a container
+if we give multiple cmd then last cmd instruction woill be override
+
