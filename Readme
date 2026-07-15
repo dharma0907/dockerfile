@@ -38,3 +38,12 @@ docker images --filter="label=author=dharma" --> this command is used to fetch y
 expose is used to give information abpout the port that is been used for image, it won't open port
 
 NOTE: ANY CHNAGES TO DOCKER FILE, WE NEED TO BUILD AGAIM THE IMAGE AND RUN THE IMAGE
+
+======ENV=====
+ENV is used to add key value pair to images
+
+=====COPY======
+copy files to images then use copy instruc
+
+NOTE: docker rm -f `docker ps -a -q` WILL DELETE ALL RUNING IMAGES
+
