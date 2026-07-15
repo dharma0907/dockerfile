@@ -53,3 +53,7 @@ ADD can fetch content directly form internet
 
 add will add files form internet and untar files directly without any command
 
+=====ENTRYPOINT======
+
+USED same as to start the container but 
+
