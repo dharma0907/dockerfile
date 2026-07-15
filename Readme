@@ -37,3 +37,4 @@ docker images --filter="label=author=dharma" --> this command is used to fetch y
 
 expose is used to give information abpout the port that is been used for image, it won't open port
 
+NOTE: ANY CHNAGES TO DOCKER FILE, WE NEED TO BUILD AGAIM THE IMAGE AND RUN THE IMAGE
