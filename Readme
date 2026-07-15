@@ -47,3 +47,9 @@ copy files to images then use copy instruc
 
 NOTE: docker rm -f `docker ps -a -q` WILL DELETE ALL RUNING IMAGES
 
+====ADD===
+ADD is also same as copy, 
+ADD can fetch content directly form internet
+
+add will add files form internet and untar files directly without any command
+
