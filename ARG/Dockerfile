@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version
+FROM almalinux:${version-9}
 ARG cource=devops \
     topic=docker \
     author=dharma 

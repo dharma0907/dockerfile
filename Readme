@@ -11,7 +11,7 @@ docker push dharma006/from:v1 it will push oimahge to our docker hub
 
 docker run -d image-name --> this will create a container
 
-========RUN INstruction=====
+          ========RUN INstruction=====
 RUN is used to install some packages , run some commands
 
 one image can have multiple run instructions
@@ -60,3 +60,8 @@ USED same as to start the container but entrypoint can'nt be override
 2.cmd can override
 
 
+====ARG===
+arg is used to set the instructions insode the docker file, we can overwrite during buildtime
+we need to use --build-arg var_name=value
+
+ARG can be the first instruction before form to supply the version to base os
