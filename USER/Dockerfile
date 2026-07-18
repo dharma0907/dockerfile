@@ -1,3 +1,4 @@
 FROM almalinux:9
 
-RUN dnf install -y nginx
+RUN useradd roboshop
+CMD ["sleep", "100"]
